@@ -160,9 +160,10 @@ img{
     padding: 3rem 0;
 }
 .movie-poster img{
-    max-width: 300px;
+    max-width: 500px;
     margin: 0 auto;
     border: 4px solid #fff;
+    border-radius: 10px;
 }
 .movie-info{
     text-align: center;
@@ -210,7 +211,7 @@ img{
     background-color: var(--light-dark-color);
     display: inline-block;
     padding: 0.5rem;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 .movie-info .plot{
     max-width: 400px;
