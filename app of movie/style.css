@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(3, 3, 23);
+    background-color: rgb(35, 107, 137);
 }
 
 h1 {
     text-align: center;
-    color: rgb(224, 244, 212);
+    color: rgb(94, 255, 0);
 }
 
 span{
@@ -24,6 +24,7 @@ input {
     height: 30px;
     background-color: rgb(248, 255, 246);
     font-size: larger;
+    border-radius: 10px;
 }
 
 .search {
@@ -35,18 +36,26 @@ input {
 }
 
 .search:hover {
-    background-color: forestgreen;
+    background-color: rgb(13, 120, 13);
     color: white;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .name {
-    display: flex;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    /* direction: column; */
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5rem;
+    flex-wrap: wrap; */
+    gap: 2rem;
     margin-left: 50px;
+}
+
+.image img{
+    border-radius: 15px;
+
 }
 
 .wrapper {
